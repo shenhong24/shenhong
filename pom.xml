@@ -45,6 +45,13 @@
                 <version>${lombok}</version>
             </dependency>
 
+            <!--阿里云oss依赖-->
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>alibabacloud-oss-v2</artifactId>
+                <version>0.3.2</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>

@@ -9,14 +9,14 @@ import java.util.Date;
 /**
  * 定时任务
  */
-@Component
+/*@Component
 @Slf4j
 public class MyTask {
-    /**
+    *//**
      * 每隔5秒执行一次
-     */
+     *//*
     @Scheduled(cron = "0/5 * * * * ?")
     public void executeTask(){
         log.info("执行定时任务:{}",new Date());
     }
-}
+}*/

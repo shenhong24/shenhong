@@ -35,7 +35,6 @@ public class OrderController {
 
     /**
      * 订单支付
-     *
      * @param ordersPaymentDTO
      * @return
      */
@@ -50,7 +49,6 @@ public class OrderController {
 
     /**
      * 历史订单查询
-     *
      * @param page
      * @param pageSize
      * @param status   订单状态 1待付款 2待接单 3已接单 4派送中 5已完成 6已取消
@@ -65,7 +63,6 @@ public class OrderController {
 
     /**
      * 查询订单详情
-     *
      * @param id
      * @return
      */
@@ -78,7 +75,6 @@ public class OrderController {
 
     /**
      * 用户取消订单
-     *
      * @return
      */
     @PutMapping("/cancel/{id}")
@@ -90,7 +86,6 @@ public class OrderController {
 
     /**
      * 再来一单
-     *
      * @param id
      * @return
      */
